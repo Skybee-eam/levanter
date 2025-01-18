@@ -20,8 +20,8 @@ bot.addCommand(
       return 0
     })
     const [date, time] = getDate()
-    let CMD_HELP = `╭────────────────╮
-						ʟᴇᴠᴀɴᴛᴇʀ
+    let sky_HELP = `╭────────────────╮
+	sky_bot☠️☠️					ʟᴇᴠᴀɴᴛᴇʀ
 ╰────────────────╯
 
 ╭────────────────
@@ -47,7 +47,7 @@ bot.addCommand(
       }
     })
 
-    CMD_HELP += `╰────────────────`
+    skybot☠️☠️_HELP += `╰────────────────`
     return await message.send('```' + CMD_HELP + '```')
   }
 )
@@ -90,7 +90,7 @@ bot.addCommand(
       }
     })
     const [date, time] = getDate()
-    let msg = `\`\`\`╭═══ LEVANTER ═══⊷
+    let msg = `\`\`\`╭═══ sky_bot☠️☠️ ═══⊷
 ┃❃╭──────────────
 ┃❃│ Prefix : ${ctx.PREFIX}
 ┃❃│ User : ${message.pushName}
